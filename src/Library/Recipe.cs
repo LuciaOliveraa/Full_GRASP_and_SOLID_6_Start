@@ -89,6 +89,7 @@ namespace Full_GRASP_And_SOLID
             }
         }
 
+        // Se utiliza el patrón de diseño estructural Adapter.
         public void Cook()
         {
             int cookingTime = GetCookTime();
